@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem, ipsum.</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/19faedb160.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/styleSecond.css">
+
+</head>
+
+<body>
+
+
+    <div id="loading" class=" d-flex justify-content-center align-items-center vh-100 w-100"
+        style=" position:sticky;top:0;left:0;z-index: 1000000;background-color:#FFF8EC;">
+        <img src="assets/unnamed.gif" alt="" >
+    </div>
+
+    <nav style="transition: .5s all;">
+        <div class="nav-logo-desktop padx ">
+            <svg width="100%" height="100%" viewBox="0 0 1440 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g clip-path="url(#clip0)">
+                <path d="M1222.01 29.1914H1228.32V30.4348H1226.12V37.9151H1228.32V39.1585H1221.47V37.9151H1223.62V30.4348L1217.36 39.2644H1216.82L1210.61 30.4348V37.9151H1212.62V39.1585H1206.16V37.9151H1208.37V30.4348H1206.16V29.1914H1212.4L1217.2 36.0169L1222.01 29.1914Z" fill="#FFF8EC"/>
+                <path d="M1234.61 30.4358V37.9161H1236.59V39.1595H1229.88V37.9161H1231.85V30.4358H1229.88V29.1924H1236.59V30.4358H1234.61ZM1234.75 27.4397C1234.75 27.669 1234.6 27.863 1234.3 28.0217C1234.01 28.176 1233.65 28.2532 1233.24 28.2532C1232.81 28.2532 1232.44 28.176 1232.16 28.0217C1231.87 27.863 1231.73 27.669 1231.73 27.4397C1231.73 27.2148 1231.87 27.0252 1232.16 26.8709C1232.44 26.7121 1232.81 26.6328 1233.24 26.6328C1233.65 26.6328 1234.01 26.7144 1234.3 26.8775C1234.6 27.0362 1234.75 27.2236 1234.75 27.4397Z" fill="#FFF8EC"/>
+                <path d="M1254.01 29.1914H1260.31V30.4348H1258.12V37.9151H1260.31V39.1585H1253.47V37.9151H1255.62V30.4348L1249.36 39.2644H1248.82L1242.61 30.4348V37.9151H1244.62V39.1585H1238.16V37.9151H1240.37V30.4348H1238.16V29.1914H1244.4L1249.19 36.0169L1254.01 29.1914Z" fill="#FFF8EC"/>
+                <path d="M1273.67 30.3951L1278.6 37.9151H1280.63V39.1585H1273.45V37.9151H1275.83L1274.42 35.6532H1267.81L1266.4 37.9151H1268.71V39.1585H1261.49V37.9151H1263.68L1268.59 30.3951H1266.4V29.1914H1275.86V30.3951H1273.67ZM1271.18 30.3951H1271.1L1268.53 34.4825H1273.69L1271.18 30.3951Z" fill="#FFF8EC"/>
+                <path d="M1295.5 31.8039C1295.5 32.4432 1295.17 32.9811 1294.51 33.4177C1293.85 33.8498 1292.93 34.1474 1291.75 34.3105L1294.96 37.9151H1297.18V39.1585H1293.1L1289.08 34.5156H1286.53V37.9151H1288.85V39.1585H1281.31V37.9151H1283.78V30.4348H1281.31V29.1914H1288.87C1291.21 29.1914 1292.9 29.4008 1293.94 29.8197C1294.98 30.2386 1295.5 30.9 1295.5 31.8039ZM1292.66 31.7774C1292.66 31.3144 1292.4 30.9749 1291.87 30.7589C1291.33 30.5428 1290.49 30.4348 1289.34 30.4348H1286.53V33.2655H1289.17C1290.36 33.2655 1291.23 33.1531 1291.81 32.9282C1292.38 32.7034 1292.66 32.3197 1292.66 31.7774Z" fill="#FFF8EC"/>
+                <path d="M1302.95 30.4348V37.9151H1308.93V34.8264H1311.19V39.1585H1297.86V37.9151H1300.2V30.4348H1297.86V29.1914H1305.29V30.4348H1302.95Z" fill="#FFF8EC"/>
+                <path d="M1317.51 30.4348V37.9151H1319.49V39.1585H1312.79V37.9151H1314.76V30.4348H1312.79V29.1914H1319.49V30.4348H1317.51Z" fill="#FFF8EC"/>
+                <path d="M1325.8 30.4348V37.9151H1327.9V39.1585H1320.77V37.9151H1323.04V30.4348H1320.77V29.1914H1328.14V30.4348H1325.8ZM1334.84 30.4348L1329.2 33.9005L1335 37.9151H1336.94V39.1585H1329.55V37.9151H1331.56L1326.09 33.9468L1331.73 30.4348H1329.62V29.1914H1336.77V30.4348H1334.84Z" fill="#FFF8EC"/>
+                <path d="M1221.81 6.90956C1221.81 8.17224 1221.45 9.23463 1220.73 10.0968C1220.02 10.9502 1219.02 11.538 1217.74 11.8602L1221.22 18.979H1223.62V21.4347H1219.21L1214.86 12.2651H1212.1V18.979H1214.61V21.4347H1206.46V18.979H1209.12V4.20569H1206.46V1.75H1214.63C1217.17 1.75 1219 2.16364 1220.12 2.99091C1221.24 3.81818 1221.81 5.1244 1221.81 6.90956ZM1218.74 6.85731C1218.74 5.94296 1218.45 5.27243 1217.87 4.84574C1217.3 4.41904 1216.39 4.20569 1215.14 4.20569H1212.1V9.7963H1214.96C1216.24 9.7963 1217.19 9.57424 1217.81 9.13013C1218.43 8.68602 1218.74 7.92841 1218.74 6.85731Z" fill="#FFF8EC"/>
+                <path d="M1238.29 7.49736V4.20569H1229.87V10.0706H1237.19V12.5263H1229.87V18.979H1238.29V15.3869H1240.72V21.4347H1224.35V18.979H1226.89V4.20569H1224.35V1.75H1240.72V7.49736H1238.29Z" fill="#FFF8EC"/>
+                <path d="M1252.79 2.97626V1.63086H1255.19V7.60028H1252.79V6.24181C1251.77 4.70918 1250.38 3.94287 1248.61 3.94287C1247.53 3.94287 1246.7 4.16058 1246.13 4.59598C1245.55 5.03139 1245.27 5.65837 1245.27 6.47694C1245.27 7.26067 1245.54 7.85717 1246.08 8.26646C1246.63 8.67574 1247.46 9.02406 1248.58 9.31143L1250.9 9.92535C1252.37 10.3172 1253.5 10.8354 1254.28 11.4798C1255.07 12.1242 1255.59 12.8077 1255.82 13.5305C1256.06 14.2533 1256.19 15.0588 1256.19 15.947C1256.19 17.7322 1255.63 19.1473 1254.51 20.1922C1253.4 21.2372 1251.91 21.7597 1250.03 21.7597C1248.25 21.7597 1246.63 21.1066 1245.16 19.8004V21.4331H1242.71V14.262H1245.16V15.9993C1246.34 18.1589 1247.87 19.2387 1249.76 19.2387C1250.87 19.2387 1251.72 18.9557 1252.33 18.3896C1252.94 17.8149 1253.25 17.0094 1253.25 15.9731C1253.25 14.5624 1252.26 13.5828 1250.27 13.0342L1247.81 12.3419C1246.05 11.8368 1244.74 11.1532 1243.9 10.2911C1243.05 9.42898 1242.63 8.29257 1242.63 6.88186C1242.63 5.14894 1243.14 3.8079 1244.16 2.85871C1245.18 1.90082 1246.6 1.42188 1248.4 1.42188C1249.97 1.42188 1251.43 1.94 1252.79 2.97626Z" fill="#FFF8EC"/>
+                <path d="M1271.49 8.94726V4.20569H1267.43V18.979H1269.99V21.4347H1261.95V18.979H1264.45V4.20569H1260.42V8.94726H1257.99V1.75H1273.92V8.94726H1271.49Z" fill="#FFF8EC"/>
+                <path d="M1296.48 11.532C1296.48 13.5349 1296.04 15.3157 1295.15 16.8744C1294.27 18.4332 1293.05 19.6393 1291.49 20.4927C1289.94 21.3373 1288.16 21.7597 1286.18 21.7597C1284.22 21.7597 1282.48 21.3199 1280.95 20.4404C1279.43 19.5522 1278.24 18.3287 1277.39 16.7699C1276.54 15.2025 1276.12 13.4391 1276.12 11.4798C1276.12 9.53784 1276.55 7.80492 1277.41 6.281C1278.28 4.75707 1279.48 3.56842 1281 2.71502C1282.53 1.85292 1284.26 1.42188 1286.2 1.42188C1288.22 1.42188 1290.01 1.86598 1291.57 2.75422C1293.13 3.63374 1294.34 4.8398 1295.19 6.37243C1296.05 7.90506 1296.48 9.62491 1296.48 11.532ZM1286.3 19.1342C1287.64 19.1342 1288.85 18.7815 1289.91 18.0762C1290.98 17.3708 1291.79 16.4347 1292.37 15.2678C1292.95 14.1009 1293.24 12.8556 1293.24 11.532C1293.24 10.1822 1292.94 8.93263 1292.32 7.78316C1291.71 6.62498 1290.86 5.71498 1289.78 5.05316C1288.7 4.38264 1287.48 4.04736 1286.13 4.04736C1284.79 4.04736 1283.61 4.37392 1282.59 5.02703C1281.56 5.67143 1280.76 6.56401 1280.2 7.70477C1279.64 8.84554 1279.36 10.1126 1279.36 11.5059C1279.36 12.9863 1279.64 14.3055 1280.2 15.4637C1280.76 16.6219 1281.57 17.5232 1282.62 18.1676C1283.68 18.812 1284.9 19.1342 1286.3 19.1342Z" fill="#FFF8EC"/>
+                <path d="M1313.48 6.90956C1313.48 8.17224 1313.12 9.23463 1312.41 10.0968C1311.69 10.9502 1310.69 11.538 1309.41 11.8602L1312.89 18.979H1315.29V21.4347H1310.88L1306.53 12.2651H1303.77V18.979H1306.28V21.4347H1298.13V18.979H1300.79V4.20569H1298.13V1.75H1306.31C1308.84 1.75 1310.67 2.16364 1311.79 2.99091C1312.91 3.81818 1313.48 5.1244 1313.48 6.90956ZM1310.41 6.85731C1310.41 5.94296 1310.12 5.27243 1309.54 4.84574C1308.97 4.41904 1308.06 4.20569 1306.81 4.20569H1303.77V9.7963H1306.63C1307.91 9.7963 1308.86 9.57424 1309.48 9.13013C1310.1 8.68602 1310.41 7.92841 1310.41 6.85731Z" fill="#FFF8EC"/>
+                <path d="M1329.2 4.12732L1334.53 18.979H1336.73V21.4347H1328.97V18.979H1331.54L1330.01 14.5118H1322.87L1321.34 18.979H1323.83V21.4347H1316.02V18.979H1318.4L1323.7 4.12732H1321.34V1.75H1331.57V4.12732H1329.2ZM1326.51 4.12732H1326.42L1323.64 12.1998H1329.23L1326.51 4.12732Z" fill="#FFF8EC"/>
+                <path d="M1331.57 1.75H1367.24V4.12715H1331.57V1.75Z" fill="#FFF8EC"/>
+                <path d="M1154.06 36.8867H1189.73V39.2639H1154.06V36.8867Z" fill="#FFF8EC"/>
+                <path d="M1154.06 36.8906H1099.86V39.2674H1154.06V36.8906Z" fill="#FFF8EC"/>
+                <path d="M1203.12 -6.375H1189V39.265H1203.12V-6.375Z" fill="url(#pattern0)"/>
+                </g>
+                <path d="M1117 36.8875H0V39.2675H1117V36.8875Z" fill="#FFF8EC"/>
+                <path d="M1440 1.74719H1367.24V4.12719H1440V1.74719Z" fill="#FFF8EC"/>
+                <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0" transform="translate(-0.00974837 0.153374) scale(0.00335361 0.00103753)"/>
+                </pattern>
+                <clipPath id="clip0">
+                <rect width="251" height="40" fill="white" transform="translate(1117)"/>
+                </clipPath>
+                <image id="image0" width="304" height="816" xlink:href="data:image/png;base64,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"/>
+                </defs>
+                </svg>
+                
+        </div>
+
+        <div class="nav-area-mobile">
+            <div class="nav-logo-area nav-logo-area-first w-100 flex-row align-items-center justify-content-between">
+                <div class="mobile-logo">
+                    <img src="assets/RestoraLogo/logoM_beyaz.svg" alt="">
+
+                </div>
+                <div class="nav-toggle">
+                    <div class="three col">
+                        <div class="hamburger" id="hamburger-1">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="nav-logo-area nav-logo-area-second w-100 flex-row align-items-center justify-content-between"
+                style="display: none;">
+                <div class="mobile-logo">
+                    <img src="assets/RestoraLogo/logoM_beyaz.svg" alt="">
+
+                </div>
+                <div class="nav-toggle">
+                    <div class="three col ">
+                        <div class="hamburger" id="hamburger-2">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="nav-items-mobile">
+
+
+                <ul class="nav-social mb-3 mb-lg-0 order-2 order-lg-1 justify-content-center justify-content-lg-start">
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <ul class="nav-links order-1 order-lg-2 d-flex flex-column flex-lg-row">
+                    <li class="ml-0"><a href="">Anasayfa</a></li>
+                    <li><a href="">Hakkımızda</a></li>
+                    <li><a href="">Projeler</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Kariyer</a></li>
+                    <li><a href="">İletişim</a></li>
+
+                    <a href="#search" class="mt-5 mt-lg-1 ml-4 ml-lg-5 search-button ">
+                        <span class="search-text m-0">
+                            Ara...
+                        </span>
+                        <i class="fas fa-search ml-5  ml-lg-2"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="nav-items ">
+
+
+                <ul class="nav-social mb-3 mb-lg-0 order-2 order-lg-1 justify-content-center justify-content-lg-start">
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <ul class="nav-links order-1 order-lg-2 d-flex flex-column flex-lg-row">
+                    <li class="ml-0 "><a href="">Anasayfa</a></li>
+                    <li><a href="">Hakkımızda</a></li>
+                    <li><a href="">Projeler</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Kariyer</a></li>
+                    <li><a href="">İletişim</a></li>
+
+                    <a href="#search" class="mt-5 mt-lg-1 ml-4 ml-lg-5 search-button ">
+                        <span class="search-text m-0">
+                            Ara...
+                        </span>
+                        <i class="fas fa-search ml-5  ml-lg-2"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </nav>
+
+
+
+    <div class="main">
+
+
+        <section class=" single-blog-head  d-flex justify-content-center w-100 align-items-center flex-column">
+            <div class="w-100 h-100 ">
+                <div class="image-ct">
+                    <img src="assets/pexels-ena-marinkovic-3697742.jpg" alt="" />
+                    <h1 class="section-header text-white text-center w-75">Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Dolor, maiores.</h1>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="section-blog">
+
+
+            <div class="single-blog-head-area row mb-5 mx-0 w-100">
+                <div class="sba-head col-12 p-0 col-lg-6 text-center text-lg-left">
+                    <p class="section-header-breadcrumb">
+                        <span>
+                            <a href="index.html">Anasayfa</a>
+                        </span>
+                        <span><a href="iletisim.html">> Blog</a></span>
+                        <span><a href="#">> Lorem, ipsum.</a></span>
+                    </p>
+                </div>
+                <div class="sba-text col-12 p-0 col-lg-6 text-center text-lg-right">
+                    <p class="m-0">
+                        12 Haziran 2021
+                    </p>
+                </div>
+            </div>
+            <div class="single-blog-container p-0 p-lg-5">
+
+                <p class="mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sed at nulla sodales at quam consequat.
+                    Ultrices phasellus pellentesque gravida imperdiet diam vitae. Est egestas vitae ut sed tristique sit
+                    bibendum vivamus curabitur. Erat viverra amet phasellus convallis. Convallis commodo massa egestas
+                    at posuere egestas leo. Posuere nibh eget id sapien sit ut dapibus ac ut. Sapien amet amet pharetra
+                    nibh venenatis elit in et in.
+                </p>
+
+                <p class="mb-5">
+                    Consectetur sit senectus tortor at vel. Erat convallis luctus est eu leo morbi euismod praesent. Sed
+                    convallis at quis purus leo magna tincidunt. Tempor massa orci montes, sit commodo nullam ut at.
+                    Euismod netus neque leo ornare id semper velit id tristique. Tincidunt quam neque, sed non, lectus
+                    bibendum. Molestie in in ac elementum cras tellus velit. Mollis ullamcorper orci duis elementum a
+                    tortor enim. Quis ut hac sociis pretium nulla gravida suspendisse cras commodo.
+                </p>
+
+                <p class="mb-5">
+                    Vitae rutrum aliquam, risus urna. Sagittis, elit vel, porta proin tempus. Et justo, donec et eget
+                    pellentesque magna metus, vel, rhoncus. Ut mi donec amet amet odio molestie fusce elit. Sed mauris
+                    purus nulla id pellentesque nunc eu arcu turpis. Lectus odio facilisi purus nunc, malesuada et fames
+                    faucibus. Gravida et ut sem donec elit. Ultrices nascetur tempor metus neque elit nulla ut magna.
+                    Egestas elementum sed suspendisse lorem volutpat. Erat non natoque accumsan, aenean in. Auctor
+                    vivamus commodo consectetur eu tempor. A eu, platea justo, sed tempus viverra cursus.
+                    Cursus vitae sed tincidunt vitae tellus sem volutpat. Erat vestibulum ornare facilisis nec feugiat.
+                    Ipsum vitae lectus in justo, commodo volutpat. Pellentesque vestibulum venenatis commodo
+                    scelerisque. Id phasellus imperdiet nibh nibh. Elit euismod dictum lorem cras laoreet pellentesque
+                    aliquam imperdiet a. Vitae congue pharetra mattis justo, ac interdum ornare cras. Sagittis
+                    consequat, nisi, tellus mauris donec. Augue non id vivamus duis. Eget tellus non pellentesque purus
+                    cum. Dolor mi velit sem a maecenas velit est at. Viverra pellentesque phasellus lobortis
+                    pellentesque sagittis. Vulputate magna id gravida commodo vitae sodales mauris rhoncus, amet. Mattis
+                    neque nulla etiam pretium ac.
+                </p>
+                <p class="mb-5">
+                    Volutpat habitant massa aliquet vel sed neque dui diam. Etiam risus bibendum ut facilisi vel viverra
+                    in. A facilisis elit faucibus augue ante sed enim, ut cras. Adipiscing aliquam ac a non libero
+                    aliquet arcu egestas nulla. Morbi velit accumsan tristique proin proin.
+                </p>
+                <p class="mb-5">
+                    Eget quam duis quis a. Mattis blandit ullamcorper sed cursus ultrices etiam tincidunt in. Dui orci
+                    ridiculus arcu quis tortor, orci sit enim. Aliquam a ultricies morbi ornare tristique massa eu
+                    aliquet. Massa iaculis vulputate nulla tempor erat ornare. Egestas scelerisque in libero lacus,
+                    magna tristique. Leo bibendum integer ac lectus leo fames proin. Interdum amet, a, egestas eu
+                    commodo metus amet. Sit risus cras dolor amet iaculis enim laoreet convallis. Neque convallis mollis
+                    sapien sit nulla sed enim odio nulla. Vestibulum tristique sed mattis diam. Habitant aliquam at
+                    pellentesque nunc. Eros id et bibendum eget convallis morbi non dignissim tincidunt. Sed amet non
+                    nisl, cursus. Faucibus dolor consequat suspendisse fames id pulvinar placerat dui.
+                </p>
+
+                <p class="mb-5">
+                    Urna quam et enim porta ipsum feugiat tortor. Ultrices ullamcorper commodo eu turpis. Ut sit non
+                    nibh volutpat vulputate ultricies lorem bibendum at. Nisi, imperdiet justo, tempor aliquam a. Nibh
+                    euismod orci nibh sed phasellus nec, enim. Nunc, congue pharetra, enim, aenean tellus purus.
+                    Adipiscing accumsan pellentesque neque mauris varius. Euismod dictumst et commodo nec. Rhoncus
+                    ullamcorper sodales nisl ut mi at sit eget. Pellentesque amet duis in diam, in arcu dictum. Tellus,
+                    aliquam duis elit pretium. Pulvinar imperdiet condimentum ornare platea blandit odio. Nunc massa,
+                    egestas arcu, feugiat neque nulla. Elit, viverra diam non augue at pretium suscipit. Vivamus vitae
+                    placerat phasellus eget convallis dictumst morbi varius.
+                </p>
+                <p class="mb-5">
+                    Augue lobortis urna eu pulvinar non lorem. Posuere dolor lectus at amet ultricies ornare sed risus.
+                    Placerat suspendisse facilisis feugiat diam. Venenatis, est venenatis, volutpat vitae id. Tristique
+                    vestibulum donec laoreet leo egestas ac in integer. Ipsum cursus lacus at est feugiat suspendisse.
+                    Vitae, aliquam integer augue sit et mattis sed libero sit. Sodales enim morbi in massa, id elementum
+                    vitae morbi interdum. Adipiscing enim eu massa condimentum quis et. Et elementum quam tempor
+                    malesuada aenean vitae tincidunt pharetra. Mi vestibulum vitae hendrerit diam facilisi congue
+                    tempor, sed. Euismod diam et nibh netus semper arcu.</p>
+            </div>
+
+            <div class="shareBlog w-100  p-0 p-lg-5 text-center text-lg-right">
+                <span>Paylaş</span>: <ul>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="recommendBlogs d-flex p-0 p-lg-5 flex-column justify-content-center align-items-center">
+                <h2 class="recommend-header ">
+                    Lorem Ipsum
+                </h2>
+
+                <div class="fps-items w-100 ">
+                    <a href="#">
+                      <div class="fps-item-container">
+      
+                        <img src="assets/fps-item4.png" alt="" class="w-100">
+                        <div class="fps-content pl-5 pr-5 pt-5 pb-0">
+                          <p class="fps-date">
+                            12 Haziran 2021
+                          </p>
+                          <p class=" fps-header">
+                            Lorem Ipsum Dolor sit Amet
+                          </p>
+      
+                          <p class="m-0 fps-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quo velit ratione reprehenderit
+                            quis
+                            dolorem libero laboriosam at qui aliquid expedita, sit fugiat incidunt quam facilis, atque
+                            eligendi
+                            magnam obcaecati quas ipsam? Ab, culpa nemo voluptas repudiandae a porro placeat. Lorem ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Voluptate velit vel quis corrupti unde veniam explicabo
+                            voluptatum harum enim impedit dignissimos, expedita autem perspiciatis! Atque placeat commodi enim
+                            tempore voluptatibus.
+                          </p>
+                        </div>
+      
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="fps-item-container">
+      
+                        <img src="assets/fps-item2.png" alt="" class="w-100">
+                        <div class="fps-content pl-5 pr-5 pt-5 pb-0">
+                          <p class="fps-date">
+                            12 Haziran 2021
+                          </p>
+                          <p class=" fps-header">
+                            Lorem Ipsum Dolor sit Amet
+                          </p>
+      
+                          <p class="m-0 fps-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quo velit ratione reprehenderit
+                            quis
+                            dolorem libero laboriosam at qui aliquid expedita, sit fugiat incidunt quam facilis, atque
+                            eligendi
+                            magnam obcaecati quas ipsam? Ab, culpa nemo voluptas repudiandae a porro placeat. Lorem ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Voluptate velit vel quis corrupti unde veniam explicabo
+                            voluptatum harum enim impedit dignissimos, expedita autem perspiciatis! Atque placeat commodi enim
+                            tempore voluptatibus.
+                          </p>
+                        </div>
+      
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="fps-item-container">
+      
+                        <img src="assets/fps-item3.png" alt="" class="w-100">
+                        <div class="fps-content pl-5 pr-5 pt-5 pb-0">
+                          <p class="fps-date">
+                            12 Haziran 2021
+                          </p>
+                          <p class=" fps-header">
+                            Lorem Ipsum Dolor sit Amet
+                          </p>
+      
+                          <p class="m-0 fps-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quo velit ratione reprehenderit
+                            quis
+                            dolorem libero laboriosam at qui aliquid expedita, sit fugiat incidunt quam facilis, atque
+                            eligendi
+                            magnam obcaecati quas ipsam? Ab, culpa nemo voluptas repudiandae a porro placeat. Lorem ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Voluptate velit vel quis corrupti unde veniam explicabo
+                            voluptatum harum enim impedit dignissimos, expedita autem perspiciatis! Atque placeat commodi enim
+                            tempore voluptatibus.
+                          </p>
+                        </div>
+      
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="fps-item-container">
+      
+                        <img src="assets/fps-item1.png" alt="" class="w-100">
+                        <div class="fps-content pl-5 pr-5 pt-5 pb-0">
+                          <p class="fps-date">
+                            12 Haziran 2021
+                          </p>
+                          <p class=" fps-header">
+                            Lorem Ipsum Dolor sit Amet
+                          </p>
+      
+                          <p class="m-0 fps-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quo velit ratione reprehenderit
+                            quis
+                            dolorem libero laboriosam at qui aliquid expedita, sit fugiat incidunt quam facilis, atque
+                            eligendi
+                            magnam obcaecati quas ipsam? Ab, culpa nemo voluptas repudiandae a porro placeat. Lorem ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Voluptate velit vel quis corrupti unde veniam explicabo
+                            voluptatum harum enim impedit dignissimos, expedita autem perspiciatis! Atque placeat commodi enim
+                            tempore voluptatibus.
+                          </p>
+                        </div>
+      
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="fps-item-container">
+      
+                        <img src="assets/fps-item2.png" alt="" class="w-100">
+                        <div class="fps-content pl-5 pr-5 pt-5 pb-0">
+                          <p class="fps-date">
+                            12 Haziran 2021
+                          </p>
+                          <p class=" fps-header">
+                            Lorem Ipsum Dolor sit Amet
+                          </p>
+      
+                          <p class="m-0 fps-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quo velit ratione reprehenderit
+                            quis
+                            dolorem libero laboriosam at qui aliquid expedita, sit fugiat incidunt quam facilis, atque
+                            eligendi
+                            magnam obcaecati quas ipsam? Ab, culpa nemo voluptas repudiandae a porro placeat. Lorem ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Voluptate velit vel quis corrupti unde veniam explicabo
+                            voluptatum harum enim impedit dignissimos, expedita autem perspiciatis! Atque placeat commodi enim
+                            tempore voluptatibus.
+                          </p>
+                        </div>
+      
+                      </div>
+                    </a>
+      
+      
+      
+      
+                  </div>
+
+                  <div class="tumunugor-link-sb d-flex justify-content-baseline justify-content-lg-center w-100 align-items-center">
+                    <a href="" class="d-flex justify-content-center align-items-center">Tümünü Gör <span class="ml-3"><img src="assets/ArrowRightBlack.svg" alt=""></span></a>
+                  </div>
+            </div>
+        </section>
+        <section class="footer ">
+            <div class="page-inner vh-100">
+                <div
+                    class="page-inner-fifth-area-black w-100 row p-0 m-0 d-flex justify-content-between align-items-end">
+                    <div class="col-4 p-0 d-none d-lg-flex align-items-center h-100">
+                        <img src="assets/RestoraLogo/logo_footer.svg" alt="" style="width: 90%; ">
+                      </div>
+            
+                      <div class="col-12 p-0 d-flex d-lg-none align-items-center footer-log-mbl">
+                        <img src="assets/RestoraLogo/logoM_footer.svg" alt="" style="width: 100%; ">
+                      </div>
+
+                    <div class="col-12 col-lg-8 p-0 row m-0 d-flex align-items-start ">
+                        <div class="col-12 col-lg-5  footer-iletisim d-flex justify-content-center flex-column pr-4">
+                            <h4 class="footer-header ">
+                                İletişim
+                            </h4>
+
+                            <ul class="footer-items  align-items-baseline h-100 d-flex flex-column ">
+                                <li>Menderes Caddesi No: 19 Kat: 4 4.Levent / İSTANBUL</li>
+                                <li><a href="tel:+902122833719">+90 212 283 37 19</a></li>
+                                <li>info@restoramimarlik.com</li>
+                                <li></li>
+                                <ul class="footer-social d-flex flex-row w-75 justify-content-baseline ">
+                                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="col-3 p-0 footer-menu d-none d-lg-block">
+                            <h4 class="footer-header ">
+                                Menü
+                            </h4>
+
+                            <ul class="footer-items  align-items-baseline h-100 d-flex flex-column ">
+                                <li class="ml-0"><a href="index.html">Anasayfa</a></li>
+                                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                                <li><a href="projeler.html">Projeler</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="kariyer.html">Kariyer</a></li>
+                                <li><a href="iletisim.html">İletişim</a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="col-4 p-0 footer-last d-none d-lg-block">
+                            <h4 class="footer-header ">
+                                Lorem Ipsum
+                            </h4>
+
+                            <ul class="footer-items  align-items-baseline h-100 d-flex flex-column ">
+                                <li><a href="">Lorem</a></li>
+                                <li><a href="">Lorem</a></li>
+                                <li><a href="">Lorem</a></li>
+                                <li><a href="">Lorem</a></li>
+
+
+                            </ul>
+                        </div>
+
+                        <div class="col-12 copyright w-100  text-right d-flex flex-column">
+                            <span class="mb-3">Restora Mimarlık © 2021 Tüm Hakları Saklıdır</span><span
+                                class="mb-3">Designed &
+                                Developed by RNG İstanbul</span>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="page-inner-fifth-area-colored w-100">
+                    <img src="assets/FooterImg.svg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+
+
+
+
+    </div>
+
+
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form class="d-flex flex-row justify-content-center align-items-center h-100">
+            <div class="d-flex flex-row justify-content-center align-items-center ">
+                <input type="search" value="" placeholder="Ara.." />
+                <button type="submit" class="btnsearch ml-5 mt-0 mt-lg-5"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="assets/scriptNormal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+
+    <script>
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.style.backgroundColor = "black";
+                //nav.classList.add('bg-dark', 'shadow');
+            } else {
+                nav.style.backgroundColor = "transparent";
+                //nav.classList.remove('bg-dark', 'shadow');
+            }
+        });
+
+
+        var borderedLi = $('.nav-items .nav-links li');
+
+        borderedLi.hover(function () {
+            $(this).css('border-left', '.3rem solid #FFF8EC ');
+            var element = $(this);
+            setTimeout(function () {
+                element.css('border-top', '.3rem solid #FFF8EC');
+            }, 75);
+            setTimeout(function () {
+                element.css('border-right', '.3rem solid #FFF8EC');
+            }, 150);
+        }, function () {
+            $(this).css('border-left', '.3rem solid transparent ');
+            var element = $(this);
+            setTimeout(function () {
+                element.css('border-top', '.3rem solid transparent');
+            }, 75);
+            setTimeout(function () {
+                element.css('border-right', '.3rem solid transparent');
+            }, 150);
+        })
+
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+
+                this.classList.toggle("active");
+                this.classList.toggle("with-bg-accr");
+                $(this).find('i').toggleClass('fa-angle-down');
+                $(this).find('i').toggleClass('fa-angle-up');
+
+
+
+
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+
+        $('.fps-items').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      responsive: [{
+          breakpoint: 1440,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        }, {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 3.01,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        }, {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2.8,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2.3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 1.9,
+            slidesToScroll: 1
+          }
+        },
+
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1.4,
+            slidesToScroll: 1
+          }
+        },
+
+        {
+          breakpoint: 400,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    </script>
+
+</body>
+
+</html>

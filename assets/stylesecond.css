@@ -1,0 +1,1853 @@
+/*HAKKIMIZDA SAYFASI*/
+
+.section-header-black {
+    padding: 10rem 4rem;
+    background-color: #0B0907;
+
+}
+
+.section-header-white {
+    padding: 10rem 4rem;
+    background-color: #FFF8EC;
+}
+
+.section-header-black .section-header-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+
+    /* Bej */
+
+    color: #FFF8EC;
+}
+
+
+.section-header-white .section-header-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+
+    /* Bej */
+
+    color: #0B0907;
+}
+
+.section-header-black a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFF8EC;
+
+}
+
+.section-header-white a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #0B0907;
+
+}
+
+
+.section-header-black a:hover {
+
+    text-decoration: none;
+    color: #FFF8EC;
+
+}
+
+.section-header-white a:hover {
+
+    text-decoration: none;
+    color: #0B0907;
+
+}
+
+
+.section-hakkimizda {
+    background-color: #FFF8EC;
+    width: 100%;
+
+}
+
+.section-projeler {
+    background-color: #0B0907;
+    width: 100%;
+    padding: 4rem 2rem;
+    padding-bottom: 0;
+
+}
+
+.sc-hakkimizda-first-img {
+    padding: 0rem 0rem;
+
+}
+
+.section-hakkimizda-content-area {
+    padding: 2rem 2rem;
+
+}
+
+.section-hakkimizda-content-area p,
+.section-hakkimizda-second-cnt p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.section-hakkimizda-i {
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    padding: 3rem 2rem;
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.section-hakkimizda-second-cnt {
+    padding: 2rem 0rem;
+    padding-top: 0;
+}
+
+.section-hakkimizda-second-cnt .text {
+    padding: 2rem 2rem;
+    /* Sans/M -16 */
+
+
+
+}
+
+.section-hakkimizda-second-cnt img {
+    width: 100%;
+}
+
+.he-img {
+    border: 2px solid #0B0907;
+}
+
+.he-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    padding: 2rem 0;
+    padding-top: 3rem;
+    text-align: center;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.hakkimizdaEkipHead,
+.title-black {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+    /* identical to box height */
+    padding: 1rem 0;
+    text-align: center;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.he-text {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* Siyah */
+
+    color: #0B0907;
+
+}
+
+.sfa-container {
+    padding: 2rem 2rem;
+
+}
+
+
+.section-frequently-asked {
+    background-color: #FFF8EC;
+    padding-bottom: 10rem;
+}
+
+.accordion {
+    background-color: #FFF8EC;
+    color: #0B0907;
+    cursor: pointer;
+    border: 2px solid #0B0907;
+    padding: 18px;
+    width: 100%;
+    border-bottom: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 2rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.with-bg-accr {
+    background-color: black !important;
+    color: #FFF8EC !important;
+}
+
+
+
+
+
+.panel {
+    border: 2px solid #0B0907;
+    background-color: #FFF8EC;
+
+    border-top: 0;
+    max-height: 0;
+    color: #0B0907;
+    overflow: hidden;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+    transition: max-height 0.2s ease-out;
+}
+
+
+/*HAKKIMIZDA*/
+
+
+.nav-bg-white {
+    background-color: #FFF8EC;
+
+}
+
+
+.nav-bg-white .nav-items li a {
+    color: #0B0907;
+}
+
+.text-white-head {
+    color: #0B0907;
+}
+
+/*PROJELER*/
+
+.pagination {
+    margin: 10rem 0;
+    margin-bottom: 0;
+}
+
+.pagination ul {
+    list-style: none;
+}
+
+.pg-black ul li {
+    border: 1px solid rgba(255, 248, 236, .4);
+    width: 35x;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.pg-white ul li {
+    border: 1px solid rgba(0, 0, 0, .5);
+    width: 35x;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.pg-black ul li a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF8EC;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem;
+    opacity: .5;
+
+}
+
+.pg-white ul li a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0B0907;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem;
+    opacity: .5;
+
+}
+
+.pg-black ul li a:hover {
+
+    text-decoration: none;
+
+}
+
+
+.pg-white ul li a:hover {
+
+    text-decoration: none;
+
+}
+
+.pg-b-active-link {
+    border: 1px solid rgba(255, 248, 236, 1) !important;
+}
+
+
+.pg-b-active-link a {
+    opacity: 1 !important;
+}
+
+.pg-w-active-link {
+    border: 1px solid rgba(0, 0, 0, 1) !important;
+}
+
+
+.pg-w-active-link a {
+    opacity: 1 !important;
+}
+
+
+.projeler-container .tps-items p {
+    left: 3rem;
+}
+
+
+/*BLOG*/
+
+.section-blog,
+.section-search {
+    padding: 4rem 2rem;
+    background-color: #FFF8EC;
+}
+
+
+/*Arama Sonuçları*/
+
+.how-many-result {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 150% */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+
+
+
+
+.hmr-bold {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 150% */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+    font-weight: 700;
+}
+
+
+.result-item {
+    border: 1px solid black;
+}
+
+.result-header {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+
+.result-link {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: underline;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+
+/*404 SECTİON*/
+
+.section-404 {
+    background-color: #0B0907;
+}
+
+.section-404 h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    margin-bottom: 5rem;
+
+    /* Bej */
+
+    color: #FFF8EC;
+}
+
+.section-404 p {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    margin-bottom: 10rem;
+    /* Bej */
+
+    color: #FFF8EC;
+
+}
+
+.section-404 a {
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFF8EC;
+    border: 1px solid #FFF8EC;
+    padding: 1rem;
+
+}
+
+
+
+/*KARİYER PAGE*/
+
+
+.section-kf p {
+    padding: 2rem 1rem;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.section-kariyer {
+    background-color: #FFF8EC;
+}
+
+.kariyer-form-area {
+    padding: 10rem 2rem;
+
+}
+
+.form-black {
+    background-color: #0B0907;
+}
+
+
+.form-w-header {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+    /* identical to box height */
+    margin-bottom: 4rem;
+    text-align: center;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.form-b-header {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+    /* identical to box height */
+    margin-bottom: 8rem;
+    text-align: center;
+
+    /* Siyah */
+
+    color: #FFF8EC;
+}
+
+
+.kariyer-form-area form div {
+    margin-bottom: 2rem;
+}
+
+.kariyer-form-area label {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.form-white-ct label {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Siyah */
+
+    color: #FFF8EC !important;
+}
+
+.kariyer-form-area input {
+    background-color: transparent;
+    border: 2px solid #0B0907;
+    padding: 2.5rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.form-black input {
+    background-color: transparent;
+    border: 2px solid #FFF8EC;
+    padding: 2.5rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFF8EC !important;
+
+}
+
+
+.kariyer-form-area input:focus {
+    background-color: transparent;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.form-black #falseinput {
+    width: 150px;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid #FFF8EC;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Siyah */
+
+    color: #FFF8EC;
+}
+
+
+
+.form-black #selected_filename {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+
+    /* Siyah */
+
+    color: #FFF8EC;
+
+}
+
+.form-black button[type=submit] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    border: 1px solid #FFF8EC;
+    outline: none;
+    background-color: transparent;
+    /* Siyah */
+
+    color: #FFF8EC;
+
+}
+
+.form-black button[type=submit] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    border: 1px solid #FFF8EC !important;
+    outline: none;
+    background-color: transparent;
+    /* Siyah */
+
+    color: #FFF8EC !important;
+
+}
+
+.form-black #form-checklb {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 18px;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+
+#falseinput {
+    width: 150px;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid #0B0907;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+
+
+#selected_filename {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+
+}
+
+.kariyer-form-area button[type=submit] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    border: 1px solid #0B0907;
+    outline: none;
+    background-color: transparent;
+    /* Siyah */
+
+    color: #0B0907;
+
+}
+
+#form-checklb {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 18px;
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+/*İLETİSİM*/
+
+.section-iletisim-container {
+    background-color: #0B0907;
+}
+
+.iletisim-content {
+    padding: 4rem 2rem;
+}
+
+.iletisim-content ul {
+    list-style: none;
+}
+
+.ic-header {
+    /* Display/S - Bold */
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Bej */
+
+    color: #FFF8EC;
+
+}
+
+.ic-text {
+    text-decoration: none;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+
+    /* Bej */
+
+    color: #FFF8EC;
+}
+
+.ic-text:hover {
+    text-decoration: none;
+    color: #FFF8EC;
+
+}
+
+.iletisim-content .footer-social li a {
+    color: #FFF8EC;
+}
+
+
+#textarea[name=message] {
+    background-color: #0B0907;
+    color: #FFF8EC;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    border: 2px solid #FFF8EC;
+    padding: 2rem !important;
+
+}
+
+
+.iletisim-btn-mbl a {
+    border: 1px solid #FFF8EC;
+    padding: 1rem 1.5rem;
+
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+
+    /* Bej */
+
+    color: #FFF8EC;
+}
+
+.iletisim-btn-mbl a:hover {
+    color: #FFF8EC;
+    text-decoration: none;
+}
+
+
+
+.single-blog-head {
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.image-ct h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 51;
+}
+
+.image-ct {
+    position: relative;
+    height: 500px;
+    z-index: 50;
+}
+
+.image-ct img {
+    width: 100%;
+    object-position: top;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.image-ct:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: .8;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+
+
+
+.sba-head a:hover {
+    text-decoration: none;
+}
+
+.sba-head a,
+.sba-text p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.single-blog-container p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* Siyah */
+
+    color: #0B0907;
+
+}
+
+
+.shareBlog ul {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+.shareBlog span {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+.shareBlog ul li {
+    margin-left: 1.5rem;
+
+}
+
+.shareBlog ul li a i {
+    font-size: 2rem;
+}
+
+.shareBlog ul li a {
+
+    color: black;
+}
+
+.shareBlog ul li a:hover {
+    color: black;
+}
+
+
+.recommend-header {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    margin-bottom: 6rem;
+
+
+    /* Siyah */
+
+    color: #0B0907;
+}
+
+
+
+.tumunugor-link-sb {
+    margin-top: 8rem;
+
+}
+
+.tumunugor-link-sb a {
+    padding: 1rem 2rem;
+    border: 1px solid #0B0907;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #0B0907;
+}
+
+.tumunugor-link-sb span img {
+    width: 40px;
+}
+
+.tumunugor-link-sb a:hover {
+    text-decoration: none;
+}
+
+
+.recommendBlogs {
+    margin-top: 8rem;
+}
+
+
+
+
+/*SINGLE PROJECT*/
+
+
+.project-description {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.project-description p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    /* Bej */
+
+    color: #FFF8EC;
+}
+
+.project-description-sc {
+    padding: 4rem 0;
+}
+
+.project-description-sc,
+p.project-description-sc span {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Bej */
+
+    color: #FFF8EC;
+}
+
+.project-image-container {
+    background-color: #0B0907;
+}
+
+#secondary-slider {
+    padding: 2rem;
+
+
+}
+
+#primary-slider .splide__slide {
+    height: 640px !important;
+}
+
+#primary-slider img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.splide__arrow {
+    border-radius: 0px !important;
+    background-color: transparent !important;
+
+
+}
+
+
+.splide__arrow--prev {
+    left: 2rem;
+}
+
+.splide__arrow--prev i {
+    color: #FFF8EC;
+    font-size: 5rem;
+}
+
+
+.splide__arrow--next {
+    right: 2rem;
+}
+
+.splide__arrow--next i {
+    color: #FFF8EC;
+    transform: rotate(180deg);
+    font-size: 5rem;
+}
+
+.section-recommend-projects {
+    background-color: #FFF8EC;
+    padding: 4rem 2rem;
+
+
+}
+
+
+.splide--nav>.splide__track>.splide__list>.splide__slide.is-active{
+    border:2px solid #FFF8EC;
+}
+
+
+@media (min-width: 576px) {
+    .section-hakkimizda-second-cnt img {
+        padding: 0rem 2rem;
+    }
+
+    .hakkimizda-ekip .col-12 div {
+        width: 400px;
+    }
+
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    .section-kf p {
+        padding: 0rem;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .section-kariyer {
+        background-color: #FFF8EC;
+        padding: 4rem 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+
+    .section-recommend-projects .recommend-header {
+        /* Display/XL - Bold */
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px ;
+        line-height: 43px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .splide__arrow--prev {
+        left: 8rem;
+    }
+
+
+
+    .splide__arrow--next {
+        right: 8rem;
+    }
+
+
+    .section-recommend-projects {
+        background-color: #FFF8EC;
+        padding: 8rem;
+
+
+    }
+
+    .splide__arrow--prev i {
+        color: #FFF8EC;
+        font-size: 3rem;
+    }
+
+    .splide__arrow--next i {
+        color: #FFF8EC;
+        font-size: 3rem;
+    }
+
+
+    .splide__arrow {
+        border-radius: 0px !important;
+        background-color: transparent !important;
+        border: 2px solid #FFF8EC;
+        padding: 3rem 3.5rem;
+
+    }
+
+
+
+    #primary-slider .splide__slide {
+        height: 800px !important;
+    }
+
+    #secondary-slider {
+        padding: 2rem 8rem;
+
+
+    }
+
+
+    .project-description-sc p,
+    .project-description-sc span {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #FFF8EC;
+    }
+
+
+    .project-description-sc {
+        padding: 8rem 10rem;
+    }
+
+    .project-description p {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+
+        /* Bej */
+
+        color: #FFF8EC;
+    }
+
+    .project-description {
+        padding: 8rem 10rem;
+    }
+
+    .tumunugor-link-sb span img {
+        width: 60px;
+    }
+
+    .tumunugor-link-sb a {
+        padding: 2rem 4rem;
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+
+    .recommend-header a {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 43px;
+        /* identical to box height */
+        margin-bottom: 10rem;
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .shareBlog ul li a i {
+        font-size: 2.5rem;
+    }
+
+    .shareBlog span {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 28px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+
+    .single-blog-container p {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .sba-head a,
+    .sba-text p {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .form-b-header {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 64px;
+        /* identical to box height */
+        margin-bottom: 8rem;
+        text-align: center;
+
+        /* Siyah */
+
+        color: #FFF8EC;
+    }
+
+    .ic-text {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #FFF8EC;
+    }
+
+    .ic-header {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #FFF8EC;
+    }
+
+    .iletisim-content {
+        padding: 0rem;
+    }
+
+    .section-iletisim-container {
+        padding: 8rem 8rem;
+    }
+
+    .kariyer-form-area button[type=submit] {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+        border: 1px solid #0B0907;
+        outline: none;
+        background-color: transparent;
+        /* Siyah */
+
+        color: #0B0907;
+
+    }
+
+
+    #falseinput {
+        width: 150px;
+        padding: 1rem 1.5rem;
+        background-color: transparent;
+        border: 2px solid #0B0907;
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .form-black #falseinput {
+        width: 150px;
+        padding: 1rem 1.5rem;
+        background-color: transparent;
+        border: 2px solid #FFF8EC;
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #FFF8EC;
+    }
+
+    .kariyer-form-area label {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+
+    }
+
+    .form-b-header {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 64px;
+        /* identical to box height */
+        margin-bottom: 8rem;
+        text-align: center;
+
+        /* Siyah */
+
+        color: #FFF8EC;
+    }
+
+
+    .form-w-header {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 64px;
+        /* identical to box height */
+        margin-bottom: 8rem;
+        text-align: center;
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+
+
+    .section-kariyer {
+        background-color: #FFF8EC;
+        padding: 8rem;
+    }
+
+    .section-404 h2 {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 144px;
+        line-height: 192px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #FFF8EC;
+    }
+
+    .section-404 p {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 43px;
+        /* identical to box height */
+
+        text-align: center;
+        color: #FFF8EC;
+
+    }
+
+
+    .how-many-result {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height, or 150% */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .hmr-bold {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height, or 150% */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+        font-weight: 700;
+    }
+
+
+    .result-header {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 43px;
+        /* identical to box height */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+
+    .result-link {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height, or 150% */
+
+        text-decoration-line: underline;
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+
+
+    .section-blog,
+    .section-search {
+        padding: 8rem;
+    }
+
+
+    .sfa-container {
+        padding: 0rem 8rem;
+    }
+
+    .section-projeler {
+        padding: 8rem 7rem;
+        padding-bottom: 0;
+    }
+
+
+
+
+
+    .hakkimizdaEkipHead,
+    .title-black {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 64px;
+        /* identical to box height */
+        padding: 4rem 0;
+        padding-top: 6rem;
+        text-align: center;
+
+        /* Siyah */
+
+        color: #0B0907;
+
+    }
+
+    .hakkimizda-ekip {
+        padding: 2rem 20rem;
+    }
+
+    .he-title {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+        padding: 3rem 0;
+        text-align: center;
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .he-text {
+        /* Sans/M */
+
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+
+
+
+    .section-hakkimizda-second-cnt img {
+        padding: 0rem 0rem;
+    }
+
+    .section-hakkimizda-second-cnt {
+        padding: 2rem 8rem;
+        padding-top: 0;
+    }
+
+    .section-hakkimizda-second-cnt .text {
+        padding: 0;
+        padding-right: 6rem;
+
+
+    }
+
+
+    .section-hakkimizda-i {
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        padding: 4rem 10rem;
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+
+    .section-hakkimizda-content-area p,
+    .section-hakkimizda-second-cnt p {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+
+
+        /* Siyah */
+
+        color: #0B0907;
+    }
+
+    .sc-hakkimizda-first-img {
+        padding: 2rem 8rem;
+        padding-top: 8rem;
+    }
+
+    .section-hakkimizda-content-area {
+        padding: 2rem 8rem;
+    }
+
+    .section-header-black {
+        padding: 15rem 8rem;
+        background-color: #0B0907;
+
+    }
+
+    .section-header-white {
+        padding: 15rem 8rem;
+        background-color: #FFF8EC;
+    }
+
+    .section-header-black .section-header-text {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 80px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #FFF8EC;
+    }
+
+    .section-header-white .section-header-text {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 80px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #0B0907;
+    }
+
+    .section-header-black a {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #FFF8EC;
+    }
+
+    .section-header-white a {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #0B0907;
+    }
+
+    .section-header-black a:hover {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #FFF8EC;
+        text-decoration: none;
+    }
+
+    .section-header-white a:hover {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        /* Bej */
+
+        color: #0B0907;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
