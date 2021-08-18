@@ -672,6 +672,17 @@
         // instead of a settings object
       ]
     });
+
+
+    $(window).on('load',function(){
+    setTimeout(function(){ // allowing 3 secs to fade out loader
+    $('#loading').fadeOut('fast',function(){
+
+      $('#loading').removeClass('d-flex');
+      
+    });
+    
+    },4000);
   </script>
 
 
